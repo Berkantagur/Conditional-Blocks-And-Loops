@@ -7,7 +7,7 @@ public class Main {
        double dolarDün = 18.20;
        double dolarBugün = 18.20;
        
-       boolean dolarDüştüMü = true;
+       boolean dolarDüştüMü = false;
        
        String okYönü = "";
        
