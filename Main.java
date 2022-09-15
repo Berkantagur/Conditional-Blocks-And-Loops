@@ -1,21 +1,9 @@
 package intro;
 
-public class Main {
-//main javada başlangıç noktasıdır.
+public class Main { 
+	
 	public static void main(String[] args) {
-       System.out.println("Hello world!");
-
-       String ortaMetin = "İlginizi çekebilir";
-       String altMetin = "Vade süresi";
-       
- //javada bütün kod satırları ; ile bitmek zorundadır.
- //değişken isimlendirilmeleri java'da camelCase yazılır.      
-      
-       System.out.println(ortaMetin);
-       
-       //integer
-       int vade = 12;
-       
+		
        double dolarDün = 18.20;
        double dolarBugün = 18.20;
        
@@ -27,17 +15,15 @@ public class Main {
     	   okYönü = "down.svg";
 	System.out.println(okYönü);
        } 
-       else if(dolarBugün>dolarDün) {
+       else if(dolarBugün>dolarDün) {//false
     	   okYönü = "up.svg";
     	   System.out.println(okYönü);
        }
-       else {
+       else {//true
     	   okYönü = "equal.svg";
     	   System.out.println(okYönü);
 }
        //java'da [] veri listesi olduğunu gösterir.
-       //array
-       
        String[] krediler = {"Dijital Kredi","İhtiyaç Kredisi","Tüketici Kredisi","Taşıt Kredisi"};
        
        System.out.println(krediler[0]);
