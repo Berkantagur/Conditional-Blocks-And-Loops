@@ -4,8 +4,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-       double dolarDün = 18.20;
-       double dolarBugün = 18.20;
+       double dolarDün = 18.40;
+       double dolarBugün = 18.40;
        
        boolean dolarDüştüMü = false;
        
